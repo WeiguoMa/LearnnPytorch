@@ -22,9 +22,10 @@ for data in test_loader:
     # print(targets)
     writer.add_images("TestData", imgs, step)
     step = step + 1
+    # print(step)
 
 writer.close()
-
+#
 """
 Data in Test_loader 将作为神经网络的输入
 """
