@@ -24,8 +24,8 @@ class SQNN(nn.Module):
         x = self.model(x)
         return x
 
-if __name__ == '__main__':
-    sqnn = SQNN()
-    input = torch.ones((64, 3, 32, 32))
-    output = sqnn(input)
-    print(output.shape)
+# if __name__ == '__main__':
+#     sqnn = SQNN()
+#     input = torch.ones((64, 3, 32, 32))
+#     output = sqnn(input)
+#     print(output.shape)
